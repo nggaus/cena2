@@ -5,7 +5,7 @@ var static = require("express-static");
 var routes = require("./routes");
 
 // connect to db
-host = process.argv.DB || "mongodb://cena:cena@ds031661.mongolab.com:31661/cenav2";
+host = process.argv.DB || "mongodb://cena:cena@ds031661.mlab.com:31661/cenav2";
 mongoose.connect(host);
 
 // error?
